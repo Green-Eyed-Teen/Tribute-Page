@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto sans', sans-serif;
+}
+
+main {
+  width: 99%;
+  background-color: #EEE;
+  margin: 25px auto;
+  border-radius: 7px;
+}
+
+h1, .description, .img-div, h2, .quote, .ending-remark {
+  text-align: center;
+}
+
+#img-div, img, ul {
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 50px 0 15px;
+  font-weight: 900;
+}
+
+.description {
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+/* Image Section */
+#img-div {
+  width: 92%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 25px 10px;
+  border-radius: 7px;
+}
+
+figure > img {
+  display: block;
+  max-width: 100%;
+}
+
+figcaption {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Time Line; Life Biography */
+.time-line {
+  padding: 40px 0 20px;
+}
+
+h2 {
+  padding-bottom: 35px;
+}
+
+ul {
+  width: 50%;
+}
+
+ul > li {
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+ul > * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Quote Section */
+.quote {
+  padding: 1.5em 0;
+  font-family: serif;
+  font-style: italic;
+  text-align: left;
+  font-size: 1.2em;
+  letter-spacing: 0.2px;
+  word-spacing: 0.1em;
+}
+
+ul div span {
+  display: block;
+  padding-top: 1em;
+  font-weight: 700;
+}
+
+/* Ending Remark */
+.ending-remark {
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.ending-remark a, .ending-remark a:hover {
+  color: #477ca7;
+}
+
+/* Bold Text */
+.bold {
+  font-family: sans-serif;
+  font-weight: 700;
+}
